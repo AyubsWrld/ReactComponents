@@ -1,0 +1,69 @@
+:root{
+  --primary : #486284 ; 
+}
+
+
+@font-face {
+  font-family : "dm-sans" ; 
+  src:
+    url('../assets/fonts/DMSans-Medium.ttf') ;
+}
+
+.hero-container{
+  margin-top : 128px ; 
+  height  : 100% ; 
+  width  : 100% ; 
+  gap : 300px ; 
+  display : flex ; 
+  align-items : center ; 
+  justify-content : center; 
+  flex-direction : column ; 
+}
+.button-container{
+  display : flex  ;  
+  align-items : center ; 
+  justify-content : center  ; 
+  flex-direction : row ; 
+  gap : 12px ; 
+
+}
+
+.hero-header {
+  font-size : 200px ; 
+  color : var(--primary) ; 
+  font-family : dm-sans; 
+}
+
+.hero-three{
+  color : var(--primary) ; 
+  font-family : dm-sans; 
+}
+
+.row-two{
+  display : flex ; 
+  flex-direction : column ; 
+  gap : 64px ; 
+}
+.button-container > button{
+  height  : 50px ; 
+  width : 125px; 
+  border-radius : 50px ; 
+  font-size :16px  ; 
+  font-family : dm-sans; 
+}
+
+
+#explore{
+  background-color : var(--primary); 
+  color  : white ; 
+  border-style : none ; 
+}
+
+#order{
+  margin-left : 10px ; 
+  color : var(--primary) ; 
+  border-style : solid ; 
+  border-color : var(--primary) ;
+}
+
+
